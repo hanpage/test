@@ -308,13 +308,16 @@ execQue[execQue.length] = function() {
         accessToken: '1485455168.0c432e5.d5834ca3d6cf46bba20e1b5eff2cfa48',
         clientId: '0c432e503c564fe8ac1ae6642c60dee9',
         template: feedText,
-                after: function() {
+        filter: function(image) {
+          return $.inArray('myny', image.tags) >=  -1 ;
+        },
+        after: function() {
         
           if (!this.hasNext()) {
             $loadButton.attr('disabled', 'disabled');
           }
         
-        refreshCarousel();
+        
         }
 
     });
