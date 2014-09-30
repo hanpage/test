@@ -3,6 +3,13 @@
   background-color: '#000000';
 }
 
+.basic-color: {
+  color: #888;
+}
+.basic-bg: {
+  background-color: #fff;
+}
+
 
 body {
   color: #888;
