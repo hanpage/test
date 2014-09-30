@@ -3,14 +3,6 @@
   background-color: '#000000';
 }
 
-.basic-color: {
-  color: #888;
-}
-.basic-bg: {
-  background-color: #fff;
-}
-
-
 body {
   color: #888;
   background-color: #fff;
@@ -79,9 +71,10 @@ footer {
   border-color: #d43076;
 }
 
-.fa {
+a .fa, a:hover .fa, a:active .fa, a:visited .fa {
   color: #888;
 }
+
 /* ==========================
 Parallax
 ============================= */
