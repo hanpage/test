@@ -71,7 +71,7 @@ footer {
   border-color: #d43076;
 }
 
-a .fa, a:hover .fa, a:active .fa, a:visited .fa {
+a .basic-color, a:hover .basic-color, a:active .basic-color, a:visited .basic-color {
   color: #888;
 }
 
