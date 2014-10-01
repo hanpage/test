@@ -102,3 +102,9 @@ Parallax
 	opacity: 0.7;
 	z-index: -1;
 }
+
+@media (max-width:480px) {
+  .navbar-custom ul.nav li {
+    color: #f4f4f4;
+	}
+}
