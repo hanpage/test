@@ -3,15 +3,21 @@
   background-color: '#000000';
 }
 
-
 body {
   color: #888;
   background-color: #fff;
 }
 
 .intro-title {
+  color: #FFF;
+  border-color: #000;
+  text-shadow: -1px 0 1px #000;
+}
+
+.intro-description {
   color: #fff;
 }
+
 
 #navigation {
   background-color: #fff;
@@ -65,6 +71,9 @@ footer {
   border-color: #d43076;
 }
 
+a .basic-color, a:hover .basic-color, a:active .basic-color, a:visited .basic-color {
+  color: #888;
+}
 
 /* ==========================
 Parallax
@@ -92,4 +101,10 @@ Parallax
 	top: 0;
 	opacity: 0.7;
 	z-index: -1;
+}
+
+@media (max-width:480px) {
+  .navbar-custom ul.nav li {
+    color: #f4f4f4;
+	}
 }
